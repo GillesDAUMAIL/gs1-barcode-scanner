@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GS1 Scanner</string>
+    <string name="scanner_title">GS1-128 Barcode Scanner</string>
+    <string name="scan_instruction">Point camera at GS1-128 barcode</string>
+    <string name="camera_permission_required">Camera permission is required for barcode scanning</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="scan_again">Scan Again</string>
+    <string name="scanning">Scanning...</string>
+    <string name="scan_result_title">Scan Result</string>
+    
+    <!-- GS1 Data Labels -->
+    <string name="gtin_label">GTIN (01)</string>
+    <string name="lot_number_label">Lot Number (10)</string>
+    <string name="expiration_date_label">Expiration Date (17)</string>
+    <string name="raw_data_label">Raw Data</string>
+    
+    <!-- Error Messages -->
+    <string name="error_no_barcode">No barcode detected</string>
+    <string name="error_invalid_gs1">Invalid GS1-128 barcode</string>
+    <string name="error_camera_init">Failed to initialize camera</string>
+    <string name="error_parsing_failed">Failed to parse barcode data</string>
+    
+    <!-- Content Descriptions -->
+    <string name="camera_preview_description">Camera preview for barcode scanning</string>
+    <string name="scan_overlay_description">Scan overlay guide</string>
+</resources>
